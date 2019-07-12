@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyProfileActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="172dp"
+        android:layout_marginTop="20sp"
+        app:srcCompat="@drawable/ic_person_black_24dp"
+        tools:srcCompat="@drawable/ic_person_black_24dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Brian Maina"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:background="#000000"
+        app:srcCompat="@drawable/line"
+        android:layout_marginTop="2sp"/>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Track:       Android"
+        android:layout_marginTop="@dimen/profile_dimen"
+        />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Country:       Kenya"
+        android:layout_marginTop="@dimen/profile_dimen"
+        />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email:       mainabrian844@gmail.com"
+        android:layout_marginTop="@dimen/profile_dimen"
+        />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone Number:       254705935427"
+        android:layout_marginTop="@dimen/profile_dimen"
+        />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Slack Username:       @Brian"
+        android:layout_marginTop="@dimen/profile_dimen"
+        />
+</LinearLayout>
